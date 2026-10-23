@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171a16">
+  <meta name="description" content="Eine kleine Pause für deinen Kopf. Teste deine Reaktion in fünf schnellen Runden, direkt im Browser.">
+  <title>PixelPause · Wie schnell bist du?</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://quge5.com/88/tag.min.js" data-zone="301077" async data-cfasync="false"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header><a class="brand" href="./" aria-label="PixelPause Startseite"><span class="mark" aria-hidden="true">p.</span>pixelpause</a><span class="label">DEINE KLEINE BROWSERPAUSE</span></header>
+    <main>
+      <section class="intro"><p class="eyebrow"><span></span> KURZE PAUSE. SCHNELLE FINGER.</p><h1>Wie schnell<br>bist <em>du?</em></h1><p class="lede">Warte auf Grün. Dann tippen. Fünf Versuche,<br class="desktop"> ein Ergebnis. Schlägst du deinen Rekord?</p></section>
+      <section class="game" aria-label="Reaktionstest">
+        <div class="game-top"><span>01 / REAKTIONSTEST</span><span id="progress">0 von 5</span></div>
+        <button class="target" id="target" type="button"><span class="target-icon" aria-hidden="true">↗</span><span class="target-title" id="target-title">Los geht’s</span><span class="target-hint" id="target-hint">Tippe, um zu starten</span></button>
+        <p class="status" id="status" aria-live="polite">Erst tippen, wenn die Fläche grün wird.</p>
+        <div class="stats"><div><span>LETZTER VERSUCH</span><strong id="last">— <small>ms</small></strong></div><div><span>DEIN REKORD</span><strong id="best">— <small>ms</small></strong></div></div>
+        <div class="game-bottom"><span>Rekord = Median aus 5 Versuchen</span><button id="reset" type="button">Neu starten ↻</button></div>
+      </section>
+      <section class="how" aria-label="So funktioniert es"><div><b>01</b><p>Runde starten.<span>Mach dich bereit.</span></p></div><div><b>02</b><p>Auf Grün warten.<span>Zu früh zählt nicht.</span></p></div><div><b>03</b><p>Rekord knacken.<span>Bleibt auf diesem Gerät.</span></p></div></section>
+    </main>
+    <footer><span>pixelpause © 2026</span><span>Ohne Konto. Einfach kurz abschalten.</span><span>Werbung kann eingeblendet werden.</span></footer>
+  </div>
+</body>
+</html>
